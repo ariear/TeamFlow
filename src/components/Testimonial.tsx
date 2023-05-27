@@ -7,7 +7,7 @@ const Testimonial: React.FC = () => {
             <p className='text-[#FFCA1D] text-4xl text-center font-bold mb-20'>Testimonials</p>
 
             <div>
-                <img src="/assets/images/world.png" className='mx-auto' alt="" />
+                <img src="/assets/images/world.png" className='mx-auto w-[90vw] xl:w-[1300px]' alt="" />
             </div>
             <div className='flex items-center justify-center mt-10'>
                 <div className='w-3 h-3 bg-[#FFCA1D] rounded-full' ></div>

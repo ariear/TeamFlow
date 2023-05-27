@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
             <p className='text-2xl font-light text-[#2D3150] mb-10'>Company News</p>
             <div className='flex items-center mx-auto w-max bg-white shadow-form rounded-xl p-2'>
                 <img src="/assets/icons/email.svg" className='mx-3' alt="" />
-                <input type="text" placeholder='Your email' className='w-[300px] ml-2' id="" />
+                <input type="text" placeholder='Your email' className='sm:w-[300px] w-[100px] sm:ml-2' id="" />
                 <button className='flex items-center bg-[#686DF1] text-white py-2 px-4 rounded-xl'><img src="/assets/icons/send.svg" className='mr-1' alt="" /> Subscribe</button>
             </div>
         </div>

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer: React.FC = () => {
     return (
-        <footer className='flex justify-between container mx-auto py-20 font-nunitosans'>
-            <div>
+        <footer className='flex justify-between flex-wrap container mx-auto py-20 xl:px-0 px-5 font-nunitosans'>
+            <div className='sm:mb-0 mb-7'>
                 <img src="/assets/logo/Company_Logo.png" className='mb-4' alt="" />
                 <p className='text-[#5C5E87] mb-10'>All Rights Reserved © teamflow.com</p>
                 <p className='text-[#2B3377] mb-2 font-semibold text-lg'>Address</p>
@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
                     <img src="/assets/icons/yt.svg" alt="" />
                 </div>
             </div>
-            <div className='text-[#5C5E87] text-lg'>
+            <div className='text-[#5C5E87] text-lg sm:mb-0 mb-7'>
                 <p className='text-[#2B3377] mb-6 font-semibold'>Product</p>
                 <p className='mb-4'>Product</p>
                 <p className='mb-4'>Pricing</p>
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
                 <p className='mb-4'>Students</p>
                 <p>Work OS</p>
             </div>
-            <div className='text-[#5C5E87] text-lg'>
+            <div className='text-[#5C5E87] text-lg sm:mb-0 mb-7'>
                 <p className='text-[#2B3377] mb-6 font-semibold'>Team</p>
                 <p className='mb-4'>About Us</p>
                 <p className='mb-4'>Contact Us</p>
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
                 <p className='mb-4'>Find a Partner</p>
                 <p>In the News</p>
             </div>
-            <div className='text-[#5C5E87] text-lg'>
+            <div className='text-[#5C5E87] text-lg sm:mb-0 mb-7'>
                 <p className='text-[#2B3377] mb-6 font-semibold'>Solutions</p>
                 <p className='mb-4'>Project Management</p>
                 <p className='mb-4'>Marketing</p>
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
                 <p className='mb-4'>See More Solutions</p>
                 <p>See More Solustions</p>
             </div>
-            <div className='text-[#5C5E87] text-lg'>
+            <div className='text-[#5C5E87] text-lg sm:mb-0 mb-7'>
                 <p className='text-[#2B3377] mb-6 font-semibold'>Resources</p>
                 <p className='mb-4'>Knowledge Base</p>
                 <p className='mb-4'>Guides</p>
